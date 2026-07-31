@@ -1,0 +1,1 @@
+document.addEventListener('DOMContentLoaded', () => {const button = document.getElementById('testButton');if (button) {button.addEventListener('click', () => {alert('Os dois arquivos foram gerados pelo Gemini no Nexus.');});}});
