@@ -1,0 +1,1 @@
+document.addEventListener('DOMContentLoaded', () => {const testButton = document.getElementById('testButton');const mainParagraph = document.getElementById('mainParagraph');if (testButton && mainParagraph) {testButton.addEventListener('click', () => {mainParagraph.textContent = 'Interação funcionando dentro do Vercel Sandbox.';});}});
